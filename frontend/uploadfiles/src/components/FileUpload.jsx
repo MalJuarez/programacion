@@ -35,7 +35,8 @@ const FileUpload = () => {
     }
 
     return (
-        <div className="file-upload-container">
+        <div className='caja'>
+            <div className="file-upload-container">
             <h2>Subir Documento</h2>
             <form>
                 <label htmlFor="archivo">Seleccionar archivo:</label>
@@ -58,7 +59,9 @@ const FileUpload = () => {
                 </div>
             )}
         </div>
+        </div>
     )
 }
+
 
 export default FileUpload

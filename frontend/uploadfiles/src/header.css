@@ -1,0 +1,48 @@
+/* header.css */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background: linear-gradient(45deg, rgb(70, 19, 70), rgb(255, 255, 255));
+    color: #fff; 
+    position: fixed; /* Changed to fixed to stay at the top */
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-item a {
+    color: #4c076b;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.nav-item a:hover {
+    color: #a177e9;
+}
+
+
+.logo {
+    width: 200px; /* Ajusta el tamaño de la imagen del logo según sea necesario */
+    height: auto;
+    margin-right: 1rem; /* Ajusta el margen derecho según sea necesario */
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
